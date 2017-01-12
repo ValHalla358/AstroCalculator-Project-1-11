@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>What's your interplanetary weight?</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai|Orbitron|Play|Source+Sans+Pro:400,700|Ubuntu:400,700" rel="stylesheet">
+</head>
+
+<body>
+    <div class="form form-horizontal">
+        <fieldset>
+            <!-- Form Name -->
+            <span>
+                <h1 id="titleCalculator"></h1>
+            </span>
+            <!-- Text input-->
+            <div id="primary-content" class="form-group">
+                <label class="col-md-4 control-label" for="weightInput">Your Earth Weight</label>
+                <div class="col-md-4">
+                    <input id="weightInput" name="weightInput" type="text" placeholder="Please enter weight" class="form-control input-md">
+                </div>
+            </div>
+            <!-- Select Single -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="select">Select your Planet!</label>
+                <select id="selectPlanet" name="selectPlanet" class="form-control">
+                </select>
+            </div>
+            <!-- Button -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="getWeight">Calibrate</label>
+                <div class="col-md-4">
+                    <button id="getWeight" name="getWeight" class="btn btn-primary" onclick="planetWeight()">Calibrate</button>
+                </div>
+            </div>
+    </div>
+    <p id="displayWeight"></p>
+    </fieldset>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>

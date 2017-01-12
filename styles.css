@@ -1,0 +1,140 @@
+/*font Family*/
+
+@font-face {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Arima Madurai', cursive;
+    font-family: 'Play', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    src: https: //fonts.googleapis.com/css?family=Ubuntu;
+    src: https: //fonts.googleapis.com/css?family=Arima+Madurai;
+    src: https: //fonts.googleapis.com/css?family=Source+Sans+Pro;
+    src: https: //fonts.googleapis.com/css?family=Play;
+    src: https: //fonts.googleapis.com/css?family=Orbitron;
+}
+
+
+/* Main Styles*/
+
+body {
+    padding-top: 10px;
+    padding-left: 50px;
+    height: 850px;
+    background-size: cover;
+    background: url('../Images/jupiter.jpg') no-repeat center;
+}
+
+fieldset {
+    border-style: none;
+}
+
+.form-group {
+    align-content: center;
+    padding: 0;
+    margin: 5px;
+}
+
+#weightInput {
+    height: 30px;
+    background: rgba(195, 151, 101, .8);
+    border: none;
+    padding: none;
+    border-radius: 5px;
+}
+
+#selectPlanet {
+    background: rgba(195, 151, 101, .8);
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    break-after:
+}
+
+#getWeight {
+    width: auto;
+    height: 30px;
+    background: rgba(195, 151, 101, .8);
+    border-radius: 5px;
+    border: none;
+}
+
+#displayWeight {
+    padding: 55px 10px;
+    align-content: center;
+    width: 45%;
+}
+
+
+/* Text Styles*/
+
+h1 {
+    font-family: Orbitron, Helvetica, serif;
+    font-size: 4.5em;
+    color: #fff;
+    text-align: center;
+    text-shadow: 4px -4px 8px rgba( 3, 3, 3, .85);
+}
+
+.form-group {
+    font-family: Play, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+label {
+    font-family: Play, Helvetica, sans-serif;
+    font-size: 2em;
+    text-shadow: 4px -1px 8px rgba( 7, 7, 7, .8);
+    color: #bdd6b6;
+}
+
+.help-block {
+    font-family: Play, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: 200;
+    text-shadow: 4px -2px 8px rgba( 7, 7, 7, .8);
+    color: #bdd6b6;
+}
+
+#options {
+    font-family: Play, Helvetica, sans-serif;
+    color: #333;
+    font-size: .75em;
+}
+
+#selectPlanet {
+    font-family: Play, Helvetica, sans-serif;
+    color: #333;
+    font-size: 1em;
+}
+
+#getWeight {
+    font-size: 1em;
+    font-family: Play, Helvetica, sans-serif;
+    color: #222;
+}
+
+#weightInput {
+    font-family: Play, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    color: #333;
+}
+
+#displayWeight {
+    font-family: Play, Helvetica, sans-serif;
+    color: rgba(255, 169, 73, .8);
+    font-size: 1.5em;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 730x) {
+    #primary-content,
+    #secondary-content {
+        width: 100%;
+        padding: 20px;
+        border-top: none;
+    }
+}
